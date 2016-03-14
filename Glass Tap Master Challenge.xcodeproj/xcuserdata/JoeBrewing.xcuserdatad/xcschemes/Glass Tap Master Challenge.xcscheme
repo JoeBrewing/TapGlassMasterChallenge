@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "490328511C977737001516B3"
+               BuildableName = "Glass Tap Master Challenge.app"
+               BlueprintName = "Glass Tap Master Challenge"
+               ReferencedContainer = "container:Glass Tap Master Challenge.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "490328651C977737001516B3"
+               BuildableName = "Glass Tap Master ChallengeTests.xctest"
+               BlueprintName = "Glass Tap Master ChallengeTests"
+               ReferencedContainer = "container:Glass Tap Master Challenge.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "490328701C977738001516B3"
+               BuildableName = "Glass Tap Master ChallengeUITests.xctest"
+               BlueprintName = "Glass Tap Master ChallengeUITests"
+               ReferencedContainer = "container:Glass Tap Master Challenge.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "490328511C977737001516B3"
+            BuildableName = "Glass Tap Master Challenge.app"
+            BlueprintName = "Glass Tap Master Challenge"
+            ReferencedContainer = "container:Glass Tap Master Challenge.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "490328511C977737001516B3"
+            BuildableName = "Glass Tap Master Challenge.app"
+            BlueprintName = "Glass Tap Master Challenge"
+            ReferencedContainer = "container:Glass Tap Master Challenge.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "490328511C977737001516B3"
+            BuildableName = "Glass Tap Master Challenge.app"
+            BlueprintName = "Glass Tap Master Challenge"
+            ReferencedContainer = "container:Glass Tap Master Challenge.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
