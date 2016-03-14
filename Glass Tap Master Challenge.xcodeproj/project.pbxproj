@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		490328561C977737001516B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490328551C977737001516B3 /* AppDelegate.swift */; };
+		490328581C977737001516B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490328571C977737001516B3 /* ViewController.swift */; };
+		4903285B1C977737001516B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 490328591C977737001516B3 /* Main.storyboard */; };
+		4903285D1C977737001516B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4903285C1C977737001516B3 /* Assets.xcassets */; };
+		490328601C977737001516B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4903285E1C977737001516B3 /* LaunchScreen.storyboard */; };
+		4903286B1C977737001516B3 /* Glass_Tap_Master_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903286A1C977737001516B3 /* Glass_Tap_Master_ChallengeTests.swift */; };
+		490328761C977738001516B3 /* Glass_Tap_Master_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490328751C977738001516B3 /* Glass_Tap_Master_ChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		490328671C977737001516B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4903284A1C977737001516B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490328511C977737001516B3;
+			remoteInfo = "Glass Tap Master Challenge";
+		};
+		490328721C977738001516B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4903284A1C977737001516B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490328511C977737001516B3;
+			remoteInfo = "Glass Tap Master Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		490328521C977737001516B3 /* Glass Tap Master Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glass Tap Master Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		490328551C977737001516B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		490328571C977737001516B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4903285A1C977737001516B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4903285C1C977737001516B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4903285F1C977737001516B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		490328611C977737001516B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490328661C977737001516B3 /* Glass Tap Master ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glass Tap Master ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4903286A1C977737001516B3 /* Glass_Tap_Master_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glass_Tap_Master_ChallengeTests.swift; sourceTree = "<group>"; };
+		4903286C1C977737001516B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490328711C977738001516B3 /* Glass Tap Master ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glass Tap Master ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		490328751C977738001516B3 /* Glass_Tap_Master_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glass_Tap_Master_ChallengeUITests.swift; sourceTree = "<group>"; };
+		490328771C977738001516B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4903284F1C977737001516B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490328631C977737001516B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4903286E1C977738001516B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490328491C977737001516B3 = {
+			isa = PBXGroup;
+			children = (
+				490328541C977737001516B3 /* Glass Tap Master Challenge */,
+				490328691C977737001516B3 /* Glass Tap Master ChallengeTests */,
+				490328741C977738001516B3 /* Glass Tap Master ChallengeUITests */,
+				490328531C977737001516B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		490328531C977737001516B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				490328521C977737001516B3 /* Glass Tap Master Challenge.app */,
+				490328661C977737001516B3 /* Glass Tap Master ChallengeTests.xctest */,
+				490328711C977738001516B3 /* Glass Tap Master ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		490328541C977737001516B3 /* Glass Tap Master Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				490328551C977737001516B3 /* AppDelegate.swift */,
+				490328571C977737001516B3 /* ViewController.swift */,
+				490328591C977737001516B3 /* Main.storyboard */,
+				4903285C1C977737001516B3 /* Assets.xcassets */,
+				4903285E1C977737001516B3 /* LaunchScreen.storyboard */,
+				490328611C977737001516B3 /* Info.plist */,
+			);
+			path = "Glass Tap Master Challenge";
+			sourceTree = "<group>";
+		};
+		490328691C977737001516B3 /* Glass Tap Master ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4903286A1C977737001516B3 /* Glass_Tap_Master_ChallengeTests.swift */,
+				4903286C1C977737001516B3 /* Info.plist */,
+			);
+			path = "Glass Tap Master ChallengeTests";
+			sourceTree = "<group>";
+		};
+		490328741C977738001516B3 /* Glass Tap Master ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				490328751C977738001516B3 /* Glass_Tap_Master_ChallengeUITests.swift */,
+				490328771C977738001516B3 /* Info.plist */,
+			);
+			path = "Glass Tap Master ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		490328511C977737001516B3 /* Glass Tap Master Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4903287A1C977738001516B3 /* Build configuration list for PBXNativeTarget "Glass Tap Master Challenge" */;
+			buildPhases = (
+				4903284E1C977737001516B3 /* Sources */,
+				4903284F1C977737001516B3 /* Frameworks */,
+				490328501C977737001516B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Glass Tap Master Challenge";
+			productName = "Glass Tap Master Challenge";
+			productReference = 490328521C977737001516B3 /* Glass Tap Master Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		490328651C977737001516B3 /* Glass Tap Master ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4903287D1C977738001516B3 /* Build configuration list for PBXNativeTarget "Glass Tap Master ChallengeTests" */;
+			buildPhases = (
+				490328621C977737001516B3 /* Sources */,
+				490328631C977737001516B3 /* Frameworks */,
+				490328641C977737001516B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				490328681C977737001516B3 /* PBXTargetDependency */,
+			);
+			name = "Glass Tap Master ChallengeTests";
+			productName = "Glass Tap Master ChallengeTests";
+			productReference = 490328661C977737001516B3 /* Glass Tap Master ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		490328701C977738001516B3 /* Glass Tap Master ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 490328801C977738001516B3 /* Build configuration list for PBXNativeTarget "Glass Tap Master ChallengeUITests" */;
+			buildPhases = (
+				4903286D1C977738001516B3 /* Sources */,
+				4903286E1C977738001516B3 /* Frameworks */,
+				4903286F1C977738001516B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				490328731C977738001516B3 /* PBXTargetDependency */,
+			);
+			name = "Glass Tap Master ChallengeUITests";
+			productName = "Glass Tap Master ChallengeUITests";
+			productReference = 490328711C977738001516B3 /* Glass Tap Master ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4903284A1C977737001516B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Joseph Donahue";
+				TargetAttributes = {
+					490328511C977737001516B3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					490328651C977737001516B3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 490328511C977737001516B3;
+					};
+					490328701C977738001516B3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 490328511C977737001516B3;
+					};
+				};
+			};
+			buildConfigurationList = 4903284D1C977737001516B3 /* Build configuration list for PBXProject "Glass Tap Master Challenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 490328491C977737001516B3;
+			productRefGroup = 490328531C977737001516B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				490328511C977737001516B3 /* Glass Tap Master Challenge */,
+				490328651C977737001516B3 /* Glass Tap Master ChallengeTests */,
+				490328701C977738001516B3 /* Glass Tap Master ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		490328501C977737001516B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490328601C977737001516B3 /* LaunchScreen.storyboard in Resources */,
+				4903285D1C977737001516B3 /* Assets.xcassets in Resources */,
+				4903285B1C977737001516B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490328641C977737001516B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4903286F1C977738001516B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4903284E1C977737001516B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490328581C977737001516B3 /* ViewController.swift in Sources */,
+				490328561C977737001516B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490328621C977737001516B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4903286B1C977737001516B3 /* Glass_Tap_Master_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4903286D1C977738001516B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490328761C977738001516B3 /* Glass_Tap_Master_ChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		490328681C977737001516B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 490328511C977737001516B3 /* Glass Tap Master Challenge */;
+			targetProxy = 490328671C977737001516B3 /* PBXContainerItemProxy */;
+		};
+		490328731C977738001516B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 490328511C977737001516B3 /* Glass Tap Master Challenge */;
+			targetProxy = 490328721C977738001516B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		490328591C977737001516B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4903285A1C977737001516B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4903285E1C977737001516B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4903285F1C977737001516B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		490328781C977738001516B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		490328791C977738001516B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4903287B1C977738001516B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Glass Tap Master Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Glass-Tap-Master-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4903287C1C977738001516B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Glass Tap Master Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Glass-Tap-Master-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4903287E1C977738001516B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Glass Tap Master ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Glass-Tap-Master-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glass Tap Master Challenge.app/Glass Tap Master Challenge";
+			};
+			name = Debug;
+		};
+		4903287F1C977738001516B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Glass Tap Master ChallengeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Glass-Tap-Master-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glass Tap Master Challenge.app/Glass Tap Master Challenge";
+			};
+			name = Release;
+		};
+		490328811C977738001516B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Glass Tap Master ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Glass-Tap-Master-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Glass Tap Master Challenge";
+			};
+			name = Debug;
+		};
+		490328821C977738001516B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Glass Tap Master ChallengeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Glass-Tap-Master-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Glass Tap Master Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4903284D1C977737001516B3 /* Build configuration list for PBXProject "Glass Tap Master Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490328781C977738001516B3 /* Debug */,
+				490328791C977738001516B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4903287A1C977738001516B3 /* Build configuration list for PBXNativeTarget "Glass Tap Master Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4903287B1C977738001516B3 /* Debug */,
+				4903287C1C977738001516B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4903287D1C977738001516B3 /* Build configuration list for PBXNativeTarget "Glass Tap Master ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4903287E1C977738001516B3 /* Debug */,
+				4903287F1C977738001516B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		490328801C977738001516B3 /* Build configuration list for PBXNativeTarget "Glass Tap Master ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				490328811C977738001516B3 /* Debug */,
+				490328821C977738001516B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4903284A1C977737001516B3 /* Project object */;
+}
